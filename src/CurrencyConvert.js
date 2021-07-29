@@ -25,7 +25,7 @@ const CurrencyConvert = (props) => {
     useEffect(() => {
         const url = 'https://pro-api.coinmarketcap.com/v1/fiat/map';
 
-        const proxy = new URL('http://proxy.hackeryou.com');
+        const proxy = new URL('https://proxy.hackeryou.com');
         proxy.search = new URLSearchParams({
             reqUrl: url,
             'params[CMC_PRO_API_KEY]': apiKey,

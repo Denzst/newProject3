@@ -11,7 +11,7 @@ function App() {
 
   const [listings, setListings] = useState([]);
   const [ids, setIds] = useState();
-  const proxy = new URL('http://proxy.hackeryou.com');
+  const proxy = new URL('https://proxy.hackeryou.com');
   // MAX 333/day
   const apiKey = Math.random() < 0.5
   ? "9fc5206c-147c-464f-aee0-4ded8edc181e"
