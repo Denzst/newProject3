@@ -149,6 +149,9 @@ function App() {
         }
         </ul>
       </main>
+      <footer>
+        <a href="https://junocollege.com">Made @ Juno College</a>
+      </footer>
     </div>
   );
 }

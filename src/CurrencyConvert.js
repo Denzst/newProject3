@@ -55,7 +55,7 @@ const CurrencyConvert = (props) => {
 
                 const currencyArray = nameArray.map((name, index) => name + " - " + symbolArray[index]);
                 
-                console.log("Combined", currencyArray);
+                // console.log("Combined", currencyArray);
                 setCurrencies(currencyArray);
             })
             .catch((error) => {
