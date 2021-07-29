@@ -150,7 +150,7 @@ function App() {
         </ul>
       </main>
       <footer>
-        <a href="https://junocollege.com">Made @ Juno College</a>
+        <a href="https://junocollege.com">Made @ Juno College | Powered by CoinMarketCap</a>
       </footer>
     </div>
   );
