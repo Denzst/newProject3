@@ -112,14 +112,20 @@ form {
 
 [type="submit"] {
   font-size: calc(1.2rem + 0.7vw);
+  padding: 5px 15px;
+  margin-bottom: 20px;
 }
 /* List Styles Begin */
 
 .listings {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 50px;
+  align-content: center;
+  width: 80%;
+  max-width: 850px;
+  margin: 0 auto;
   padding: 10px 0;
   border-radius: 30px;
   background-color: azure;
@@ -129,13 +135,16 @@ form {
 
 .listing {
   display: flex;
-  flex-basis: 70%;
-  justify-content: flex-start;
+  flex-basis: 50%;
+  justify-content: space-between;
   padding: 20px 0 10px 0;
+  margin: 0 10px;
+  font-size: calc(2rem + 0.5vw);
 }
 
 .listing p {
-  margin-right: 5px;
+  margin: 10px;
+  
 }
 
 
