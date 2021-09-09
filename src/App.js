@@ -149,7 +149,7 @@ function App() {
       </nav> */}
 
       <main className="main">
-        <h1>Top 15 Cryptocurrencies <span className="marketCap block">by Marketcap</span></h1>
+        <h1>Top 15 Cryptocurrencies <span className="marketCap block">- by Marketcap -</span></h1>
         {/* <button onClick={handleClick} type="submit">Pressss Me</button> ADD LATER*/}
         <div className="separator"></div>
         <CurrencyConvert priceConvert={priceConvert} />
