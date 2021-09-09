@@ -3,10 +3,10 @@ import swal from "sweetalert";
 
 const CurrencyConvert = (props) => {
     const apiKey = Math.random() < 0.5
-  ? "9fc5206c-147c-464f-aee0-4ded8edc181e"
-  : "32e9fe03-aacb-4d86-8344-12830a42e6a2";
+        ? "9fc5206c-147c-464f-aee0-4ded8edc181e"
+        : "32e9fe03-aacb-4d86-8344-12830a42e6a2";
     // console.log('Currency Component');
-    const {priceConvert} = props;
+    const { priceConvert } = props;
 
     const [currencies, setCurrencies] = useState([]);
     const [symbols, setSymbols] = useState([]);
@@ -54,7 +54,7 @@ const CurrencyConvert = (props) => {
                 // console.log("Symbols", symbolArray);
 
                 const currencyArray = nameArray.map((name, index) => name + " - " + symbolArray[index]);
-                
+
                 // console.log("Combined", currencyArray);
                 setCurrencies(currencyArray);
             })
@@ -67,9 +67,9 @@ const CurrencyConvert = (props) => {
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="currency">
-                Pick a conversion!
+                Select one of nearly 100 conversions!
             </label>
-            <select  onChange={handleSelect} name="currency" id="currency" value={convert}>
+            <select onChange={handleSelect} name="currency" id="currency" value={convert}>
                 {
                     symbols.map((symbol, index) => {
                         return (
